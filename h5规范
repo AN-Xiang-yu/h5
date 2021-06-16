@@ -1,5 +1,13 @@
-<h1>H5规范</h1>
-<pre>1. 同一页面，不同元素，应避免使用相同的 name 与 id
+H5规范
+1. 同一页面，不同元素，应避免使用相同的 name 与 id
 2. 代码缩进和换行
 使用 4 个空格做为一个缩进层级，不建议使用 2 个空格 或 tab 字符。
-建议每行不得超过 120 个字符。</pre>
+建议每行不得超过 120 个字符。
+3. JavaScript 应当放在页面末尾
+将 script 放在页面中间将阻断页面的渲染。
+
+表单
+有文本标题的控件必须使用 label 标签将其与其标题相关联。
+<label for="username">用户名：</label> <input type="textbox" name="username" id="username">
+
+https://www.zhangxinxu.com/wordpress/2010/09/%E7%B2%BE%E7%AE%80%E9%AB%98%E6%95%88%E7%9A%84css%E5%91%BD%E5%90%8D%E5%87%86%E5%88%99%E6%96%B9%E6%B3%95/
